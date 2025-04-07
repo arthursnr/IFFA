@@ -15,16 +15,19 @@ export function NavMenu() {
     return (
 
         <div className="lg:hidden">
-            
+
             <button onClick={toggleDrawer} className="z-[999] relative">
                 {isOpen ? <X /> : <Menu />}
             </button>
 
             {/* Links do menu */}
             <motion.div
-                initial={{ x: '-100%' }}
-                animate={{ x: isOpen ? '0%' : '-100%' }}
-                className="flex fixed left-0 right-0 top-20 overflow-y-auto h-full  bg-[#5E5EDA] backdrop-blur  text-white p-6">
+                initial={{ x: '100vw' }}
+                animate={{ x: isOpen ? '0' : '100vw' }}
+                transition={{ type: 'tween' }} // transição mais suave
+                className="flex fixed left-0 right-0 top-20 overflow-y-auto h-full bg-[#5E5EDA] backdrop-blur text-white p-6"
+            >
+
                 <ul>
                     <ul className="flex flex-col text-xl font-semibold">
                         <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#" className="relative">Home Page</a></li>
