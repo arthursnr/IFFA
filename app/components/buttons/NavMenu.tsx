@@ -42,7 +42,7 @@ export function NavMenu() {
             >
 
                 <ul>
-                    <ul className="flex flex-col text-xl font-semibold">
+                    <ul className="flex flex-col text-xl font-ibm font-normal">
                         <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#" className="relative">Home Page</a></li>
                         <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#" className="relative">Sobre Nós</a></li>
                         <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#" className="relative">Como Apoiar</a></li>
