@@ -12,10 +12,11 @@ export default function Home() {
   return (
     <div className="min-h-screen min-w-screen bg-[#5E5EDA]">
       <div className="text-white">
-        <header className="bg-[#5E5EDA] h-fit min-w-screen flex items-center justify-between px-4">
+        <header className="bg-[#5E5EDA] flex items-center justify-between px-4 py-2 w-full">
           <img src="/logoIFFA_2(branca).png" alt="Logo da IFFA" className="w-24 h-24 object-contain" />
           <NavMenu />
         </header>
+
       </div>
 
       <div>

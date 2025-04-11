@@ -1,12 +1,25 @@
 "use client";
 
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion } from 'framer-motion'
 
 export function NavMenu() {
     const [isOpen, setIsOpen] = useState(false);
 
+
+    useEffect(() => {
+        if (isOpen) {
+          document.body.style.overflow = "hidden";
+        } else {
+          document.body.style.overflow = "auto";
+        }
+    
+        return () => {
+          document.body.style.overflow = "auto";
+        };
+      }, [isOpen]);
+      
     // toggle drawer
     const toggleDrawer = () => {
         setIsOpen(!isOpen);
@@ -25,7 +38,7 @@ export function NavMenu() {
                 initial={{ x: '100vw' }}
                 animate={{ x: isOpen ? '0' : '100vw' }}
                 transition={{ type: 'tween' }} // transição mais suave
-                className="flex fixed left-0 right-0 top-20 overflow-y-auto h-full bg-[#5E5EDA] backdrop-blur text-white p-6"
+                className="flex fixed left-0 right-0 top-23 overflow-y-auto h-full bg-[#5E5EDA] backdrop-blur text-white p-6"
             >
 
                 <ul>
