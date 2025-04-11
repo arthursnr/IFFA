@@ -9,7 +9,7 @@ export function Footer() {
                 <img src="/youtube.svg" alt="Youtube Logo" className="size-6" />
             </div>
             <div>
-                <p>© 2024 IFFA. All rights reserved.</p>
+                <p className="font-ibm text-sm leading-5">© 2024 IFFA. All rights reserved.</p>
             </div>
         </footer>
     )

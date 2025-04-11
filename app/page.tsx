@@ -26,7 +26,7 @@ export default function Home() {
         {/*Support Page*/}
         <Support />
 
-        {/*Support2 ------------- TERMINEI AQUI, CONTINUAR NO PROXIMO*/}
+        {/*Support2*/}
         <Support2 />
 
         {/*Relatos*/}

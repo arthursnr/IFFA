@@ -2,11 +2,11 @@ export function Support3() {
     return (
         <div className="min-h-screen w-screen py-12 px-5 text-white bg-[#1414A2]">
             <div className="flex flex-col gap-5">
-                <span className="text-4xl">Conectando Famílias, Apoiando umas às Outras</span>
-                <p>Junte-se à nossa comunidade e encontre apoio para a jornada única da sua família.</p>
+                <span className="text-jost leading-12 text-4xl">Conectando Famílias, Apoiando umas às Outras</span>
+                <p className="text-ibm text-base leading-6">Junte-se à nossa comunidade e encontre apoio para a jornada única da sua família.</p>
             </div>
 
-            <div className="flex flex-col gap-10 py-12">
+            <div className="flex flex-col gap-10 py-12 font-ibm">
                 <div className="flex flex-col gap-4">
                     <span className="text-base leading-6 font-semibold">Links</span>
                     <ul className="flex flex-col gap-4 text-sm leading-5">
