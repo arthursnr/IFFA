@@ -11,10 +11,12 @@ export function Support() {
 
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col gap-3">
+                <img src="/icon.svg" alt="icon" className="size-12"/>
                     <p className="text-lg font-jost">Comunidade de Suporte</p>
                     <p className="font-ibm text-base leading-6">Conecte-se com famílias que compreendem sua jornada e compartilhe experiências.</p>
                 </div>
                 <div className="flex flex-col gap-3">
+                <img src="/icon.svg" alt="icon" className="size-12"/>
                     <p className="text-lg font-jost">Recursos Valiosos</p>
                     <p className="font-ibm text-base leading-6">Acesse orientações de especialistas, workshops e materiais personalizados para as necessidades da sua família.</p>
                 </div>

@@ -10,16 +10,19 @@ export function Support2() {
             </div>
 
             <div className="flex flex-col gap-12">
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col items-center gap-4">
+                    <img src="/icon.svg" alt="icon" className="size-12"/>
                     <p className="text-2xl font-jost leading-8">Grupos de Apoio para Conexão e Crescimento</p>
                     <p className="font-ibm text-base leading-6">Participe dos nossos grupos de apoio para encontrar comunidade e compreensão.</p>
                 </div>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col items-center  gap-4">
+                <img src="/icon.svg" alt="icon" className="size-12"/>
                     <p className="text-2xl font-jost leading-8">Recursos Educacionais para uma Parentalidade Informada</p>
                     <p className="font-ibm text-base leading-6">Acesse recursos valiosos para ajudá-lo em sua jornada.</p>
                 </div>
 
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col items-center gap-4">
+                <img src="/icon.svg" alt="icon" className="size-12"/>
                     <p className="text-2xl font-jost leading-8">Defesa dos Direitos e Inclusão</p>
                     <p className="font-ibm text-base leading-6">Defendemos os direitos das famílias e das crianças com necessidades especiais.</p>
                 </div>
