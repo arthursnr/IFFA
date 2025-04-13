@@ -1,6 +1,6 @@
 export function WorkshopEvents() {
     return (
-        <div className="flex  overflow-x-auto gap-8">
+        <div className="flex overflow-x-auto gap-8">
             <div className="flex flex-col gap-4 border min-w-72 border-[#0B010526] rounded-2xl p-6 pb-14">
                 <div className="flex gap-4 items-center text-sm leading-5">
                     <span className="font-ibm text-sm leading-5">Data: 05/04/2025</span>
