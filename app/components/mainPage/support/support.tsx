@@ -1,6 +1,6 @@
 export function Support() {
     return (
-        <div className="flex flex-col gap-6 h-screen min-w-screen py-12 px-5 bg-[#E8E8F9] text-[#0B0105]">
+        <div id="support" className="flex flex-col gap-6 h-screen min-w-screen py-12 px-5 bg-[#E8E8F9] text-[#0B0105]">
             <div className="flex flex-col gap-3">
                 <span className="text-base font-semibold font-ibm">Suporte</span>
                 <div className="flex flex-col gap-5">

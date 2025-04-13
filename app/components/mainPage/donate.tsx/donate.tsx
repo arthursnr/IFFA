@@ -1,6 +1,6 @@
 export function Donate() {
     return (
-        <div className="flex flex-col w-screen py-16 px-5 text-white bg-[#1414A2]">
+        <div id="donate" className="flex flex-col w-screen py-16 px-5 text-white bg-[#1414A2]">
             <div className="flex flex-col gap-5">
                 <span className="text-jost text-4xl leading-10">Faça Parte da IFFA</span>
                 <p className="text-ibm text-base leading-6">Juntos, podemos fazer a diferença para as nossas crianças.</p>
