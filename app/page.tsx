@@ -29,7 +29,7 @@ export default function Home() {
         {/*Support2*/}
         <Support2 />
 
-        {/*Relatos*/}
+        {/*Relatos ----------------> RESOLVER A FORMATAÇÃO DOS OBJETIVOS, O LADO ESQUERDO ESTA FICANDO FORA DA TELA */}
         <Relatos />
 
         {/*Workshops*/}

@@ -1,12 +1,12 @@
 export function Relatos() {
     return (
-        <div id="relatos" className="flex flex-col gap-10 w-screen min-h-screen py-16 px-5 text-[#0B0105] bg-[#E8E8F9]">
-            <div className="flex flex-col gap-6 bg-white/40 shadow px-3.5 py-4 rounded-lg">
+        <div id="relatos" className="flex flex-col gap-10 min-h-screen py-16 px-5 text-[#0B0105] bg-[#E8E8F9]">
+            <div className="flex flex-col w-full gap-6 bg-white/40 shadow px-3.5 py-4 rounded-lg">
                 <div className="flex gap-2 text-base font-semibold font-jost">
                     <img src="/goal.svg" alt="Missão" />
                     <span>Nossa Missão</span>
                 </div>
-                <div className="flex gap-3 items-center text-wrap">
+                <div className="flex gap-5 items-center text-wrap">
                     <img src="/iffa1.webp" alt="" className="size-20 hidden sm:block md:block" />
 
                     <p className="font-ibm text-base leading-6 text-balance">Nossa missão é fomentar a inclusão social e
@@ -19,13 +19,13 @@ export function Relatos() {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-6 bg-white/40 shadow px-3.5 py-4 rounded-lg">
+            <div className="flex flex-col w-full gap-6 bg-white/40 shadow px-3.5 py-4 rounded-lg">
                 <div className="flex gap-2 text-base font-semibold font-jost">
                     <img src="/eye.svg" alt="Missão" />
                     <span>Nossa Visão</span>
                 </div>
 
-                <div className="flex gap-3 items-center text-wrap">
+                <div className="flex gap-5 items-center text-wrap">
                     <p className="font-ibm text-base leading-6 text-balance">Ser reconhecida como referência no estado do Rio de
                         Janeiro por nossa atuação <span className="text-blue-500">transformadora, comprometida
                             com a defesa dos direitos das pessoas com deficiência e a
@@ -38,13 +38,13 @@ export function Relatos() {
                 </div>
             </div>
 
-            <div className="flex flex-col gap-6 bg-white/40 shadow px-3.5 py-4 rounded-lg">
+            <div className="flex flex-col w-full gap-6 bg-white/40 shadow px-3.5 py-4 rounded-lg">
                 <div className="flex gap-2 text-base font-semibold font-jost">
                     <img src="/value.svg" alt="Missão" />
                     <span>Nossos Valores</span>
                 </div>
 
-                <div className="flex gap-3 items-center text-wrap">
+                <div className="flex gap-5 items-center text-wrap">
                     <img src="/iffa3.webp" alt="" className="size-20 hidden sm:block md:block" />
 
                     <p className="font-ibm text-base leading-6 text-balance">Nossos valores se baseiam na <span className="text-blue-500">inclusão, empatia,
