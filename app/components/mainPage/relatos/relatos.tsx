@@ -7,7 +7,7 @@ export function Relatos() {
                     <span>Nossa Missão</span>
                 </div>
                 <div className="flex gap-5 items-center text-wrap">
-                    <img src="/iffa1.webp" alt="" className="size-20 hidden sm:block md:block" />
+                    <img src="/iffa1.webp" alt="" className="size-20 hidden sm:block" />
 
                     <p className="font-ibm text-base leading-6 text-balance">Nossa missão é fomentar a inclusão social e
                         assegurar a defesa dos direitos das pessoas com

@@ -27,7 +27,7 @@ export function NavMenu() {
 
     return (
 
-        <div className="lg:hidden">
+        <div className="md:hidden">
 
             <button onClick={toggleDrawer} className="z-[999] relative">
                 {isOpen ? <X /> : <Menu />}
@@ -40,18 +40,14 @@ export function NavMenu() {
                 transition={{ type: 'tween' }} // transição mais suave
                 className="flex fixed left-0 right-0 top-23 overflow-y-auto h-full bg-[#5E5EDA] backdrop-blur text-white p-6"
             >
-
-                <ul>
-                    <ul className="flex flex-col text-xl font-ibm font-normal">
-                        <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#welcome" onClick={toggleDrawer} className="relative">Home Page</a></li>
-                        <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#support" onClick={toggleDrawer} className="relative">Suporte</a></li>
-                        <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#support2" onClick={toggleDrawer} className="relative">Suporte.2</a></li>
-                        <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#relatos" onClick={toggleDrawer} className="relative">Relatos</a></li>
-                        <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#workshop" onClick={toggleDrawer} className="relative">Eventos</a></li>
-                        <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#donate" onClick={toggleDrawer} className="relative">Doar</a></li>
-                        <li className="hover:text-gray-300 hover:bg-white/5 rounded-md cursor-pointer py-4 px-2"><a href="#support3" onClick={toggleDrawer} className="relative">Links</a></li>
-                        
-                    </ul>
+                <ul className="flex flex-col text-xl font-ibm font-normal">
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#welcome" onClick={toggleDrawer} className="relative">Home Page</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support" onClick={toggleDrawer} className="relative">Suporte</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support2" onClick={toggleDrawer} className="relative">Suporte.2</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#relatos" onClick={toggleDrawer} className="relative">Relatos</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#workshop" onClick={toggleDrawer} className="relative">Eventos</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#donate" onClick={toggleDrawer} className="relative">Doar</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support3" onClick={toggleDrawer} className="relative">Links</a></li>
                 </ul>
             </motion.div>
         </div>

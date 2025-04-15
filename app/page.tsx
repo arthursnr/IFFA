@@ -1,4 +1,4 @@
-import { NavMenu } from "./components/buttons/NavMenu";
+import { Header } from "./components/header/header";
 import { Donate } from "./components/mainPage/donate.tsx/donate";
 import { Footer } from "./components/mainPage/footer/footer";
 import { Relatos } from "./components/mainPage/relatos/relatos";
@@ -12,11 +12,7 @@ export default function Home() {
   return (
     <div className="min-h-screen min-w-screen bg-[#5E5EDA]">
       <div className="text-white">
-        <header className="bg-[#5E5EDA] flex items-center justify-between px-4 py-2 w-full">
-          <img src="/logoIFFA_2(branca).png" alt="Logo da IFFA" className="w-24 h-24 object-contain" />
-          <NavMenu />
-        </header>
-
+        <Header />
       </div>
 
       <div>
@@ -26,7 +22,7 @@ export default function Home() {
         {/*Support Page*/}
         <Support />
 
-        {/*Support2*/}
+        {/*Support2 --------------> começar aqui a fazer a parte das telas de pc*/}
         <Support2 />
 
         {/*Relatos ----------------> RESOLVER A FORMATAÇÃO DOS OBJETIVOS, O LADO ESQUERDO ESTA FICANDO FORA DA TELA */}
