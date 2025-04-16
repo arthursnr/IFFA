@@ -22,7 +22,7 @@ export default function Home() {
         {/*Support Page*/}
         <Support />
 
-        {/*Support2 --------------> começar aqui a fazer a parte das telas de pc*/}
+        {/*Support2 --------------> TERMINEI, COMEÇAR O PROXIMO*/}
         <Support2 />
 
         {/*Relatos ----------------> RESOLVER A FORMATAÇÃO DOS OBJETIVOS, O LADO ESQUERDO ESTA FICANDO FORA DA TELA */}
