@@ -1,12 +1,12 @@
 export function WorkshopEvents() {
     return (
-        <div className="flex overflow-x-auto gap-8">
-            <div className="flex flex-col gap-4 border min-w-72 border-[#0B010526] rounded-2xl p-6 pb-14">
+        <div className="flex overflow-x-auto gap-8 lg:flex-col lg:items-center lg:overflow-x-hidden">
+            <div className="flex flex-col gap-4 border min-w-72 max-w-3xl border-[#0B010526] rounded-2xl p-6 pb-14 lg:p-8 lg:gap-4">
                 <div className="flex gap-4 items-center text-sm leading-5">
                     <span className="font-ibm text-sm leading-5">Data: 05/04/2025</span>
                     <span className="py-1 px-2.5 font-ibm text-sm leading-5 font-semibold border rounded-sm border-[#0B010526]">Coming soon</span>
                 </div>
-                <span className="font-jost leading-7 text-xl">Sessões de Cinema Inclusivo</span>
+                <span className="font-jost leading-7 text-xl lg:text-2xl lg:leading-8">Sessões de Cinema Inclusivo</span>
                 <p className="text-base font-ibm leading-6"> O projeto visa proporcionar uma
                     experiência cinematográfica
                     inclusiva para pessoas com
@@ -21,12 +21,12 @@ export function WorkshopEvents() {
                 </p>
             </div>
 
-            <div className="flex flex-col gap-4 min-w-72 border border-[#0B010526] rounded-2xl p-6 pb-14">
+            <div className="flex flex-col gap-4 border min-w-72 max-w-3xl border-[#0B010526] rounded-2xl p-6 pb-14 lg:p-8 lg:gap-4">
                 <div className="flex gap-4 items-center text-sm leading-5">
                     <span className="font-ibm text-sm leading-5">Data: 05/04/2025</span>
                     <span className="py-1 px-2.5 font-ibm text-sm leading-5 font-semibold border rounded-sm border-[#0B010526]">Coming soon</span>
                 </div>
-                <span className="font-jost leading-7 text-xl"> Vínculo Inabalável</span>
+                <span className="font-jost leading-7 text-xl lg:text-2xl lg:leading-8">Vínculo Inabalável</span>
                 <p className="text-base font-ibm leading-6">
                     O projeto possui como objetivo
                     criar um ambiente inclusivo e
@@ -41,12 +41,12 @@ export function WorkshopEvents() {
                 </p>
             </div>
 
-            <div className="flex flex-col gap-4 min-w-72 border border-[#0B010526] rounded-2xl p-6 pb-14">
+            <div className="flex flex-col gap-4 border min-w-72 max-w-3xl border-[#0B010526] rounded-2xl p-6 pb-14 lg:p-8 lg:gap-4">
                 <div className="flex gap-4 items-center text-sm leading-5">
                     <span className="font-ibm text-sm leading-5">Data: 05/04/2025</span>
                     <span className="py-1 px-2.5 font-ibm text-sm leading-5 font-semibold border rounded-sm border-[#0B010526]">Coming soon</span>
                 </div>
-                <span className="font-jost leading-7 text-xl">  Dia das Crianças Inclusivo</span>
+                <span className="font-jost leading-7 text-xl lg:text-2xl lg:leading-8">Dia das Crianças Inclusivo</span>
                 <p className="text-base font-ibm leading-6">
                     O projeto busca celebrar não
                     apenas a diversão das crianças em
@@ -60,12 +60,12 @@ export function WorkshopEvents() {
                 </p>
             </div>
 
-            <div className="flex flex-col gap-4 min-w-72 border border-[#0B010526] rounded-2xl p-6 pb-14">
+            <div className="flex flex-col gap-4 border min-w-72 max-w-3xl border-[#0B010526] rounded-2xl p-6 pb-14 lg:p-8 lg:gap-4">
                 <div className="flex gap-4 items-center text-sm leading-5">
                     <span className="font-ibm text-sm leading-5">Data: 05/04/2025</span>
                     <span className="py-1 px-2.5 font-ibm text-sm leading-5 font-semibold border rounded-sm border-[#0B010526]">Coming soon</span>
                 </div>
-                <span className="font-jost leading-7 text-xl">Empoderando a Inclusão</span>
+                <span className="font-jost leading-7 text-xl lg:text-2xl lg:leading-8">Empoderando a Inclusão</span>
                 <p className="text-base font-ibm leading-6">
                     O projeto busca conscientizar sobre
                     os direitos, desafios e
@@ -80,12 +80,12 @@ export function WorkshopEvents() {
                 </p>
             </div>
 
-            <div className="flex flex-col gap-4 min-w-72 border border-[#0B010526] rounded-2xl p-6 pb-14">
+            <div className="flex flex-col gap-4 border min-w-72 max-w-3xl border-[#0B010526] rounded-2xl p-6 pb-14 lg:p-8 lg:gap-4">
                 <div className="flex gap-4 items-center text-sm leading-5">
                     <span className="font-ibm text-sm leading-5">Data: 05/04/2025</span>
                     <span className="py-1 px-2.5 font-ibm text-sm leading-5 font-semibold border rounded-sm border-[#0B010526]">Coming soon</span>
                 </div>
-                <span className="font-jost leading-7 text-xl">Natal Para Todos</span>
+                <span className="font-jost leading-7 text-xl lg:text-2xl lg:leading-8">Natal Para Todos</span>
                 <p className="text-base font-ibm leading-6">
                     Um encontro especial e reservado
                     com o Papai Noel e as crianças e

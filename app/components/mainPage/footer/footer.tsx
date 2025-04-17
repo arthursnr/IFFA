@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <footer className="flex flex-col gap-4 pt-4 pb-16 px-5 text-white bg-[#1414A2]">
+        <footer className="flex flex-col gap-4 pt-6 pb-16 px-5 text-white bg-[#1414A2] lg:pb-20 lg:px-16">
             <div className="flex gap-3">
 
                 <a href="https://www.instagram.com/forumdefamiliasatipicas/">
@@ -28,7 +28,7 @@ export function Footer() {
                 </a>
             </div>
             <div>
-                <p className="font-ibm text-sm leading-5">© 2024 IFFA. All rights reserved.</p>
+                <p className="font-ibm text-sm leading-5">© 2025 IFFA. All rights reserved.</p>
             </div>
         </footer>
     )

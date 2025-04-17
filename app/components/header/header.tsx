@@ -12,7 +12,7 @@ export function Header() {
                     <li className="hover:text-white/80"><a href="#welcome">Home Page</a></li>
                     <li className="hover:text-white/80"><a href="#support">Suporte</a></li>
                     <li className="hover:text-white/80"><a href="#support2">Suporte.2</a></li>
-                    <li className="hover:text-white/80"><a href="#relatos">Relatos</a></li>
+                    <li className="hover:text-white/80"><a href="#principios">Princípios</a></li>
                     <li className="hover:text-white/80"><a href="#workshop">Eventos</a></li>
                     <li className="hover:text-white/80"><a href="#donate">Doar</a></li>
                     <li className="hover:text-white/80"><a href="#support3">Links</a></li>
