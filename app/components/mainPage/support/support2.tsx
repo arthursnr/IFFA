@@ -2,7 +2,7 @@ export function Support2() {
     return (
         <div id="support2" className="flex flex-col gap-12 bg-white min-h-screen w-screen py-16 px-5 text-[#0B0105] text-center items-center lg:py-28 lg:px-16 lg:gap-20">
             <div className="flex flex-col gap-3 lg:gap-4 lg:w-3xl">
-                <span className="text-base font-semibold font-ibm">Suporte</span>
+                <span className="text-base font-semibold font-ibm">Juntos pela Inclusão</span>
                 <div className="flex flex-col gap-5 lg:gap-6">
                     <p className="text-4xl font-jost leading-10 lg:text-5xl lg:leading-14">Empoderando Famílias de Crianças com Necessidades Especiais</p>
                     <p className="font-ibm text-base leading-6 lg:text-lg lg:leading-7">No Fórum de Famílias Atípicas, oferecemos um espaço seguro para que as famílias se conectem e compartilhem experiências. Nossa missão é empoderar e apoiar aqueles que enfrentam os desafios de criar crianças com necessidades especiais.</p>

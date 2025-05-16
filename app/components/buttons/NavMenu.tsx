@@ -42,11 +42,11 @@ export function NavMenu() {
             >
                 <ul className="flex flex-col text-xl font-ibm font-normal">
                     <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#welcome" onClick={toggleDrawer} className="relative">Home Page</a></li>
-                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support" onClick={toggleDrawer} className="relative">Suporte</a></li>
-                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support2" onClick={toggleDrawer} className="relative">Suporte.2</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support" onClick={toggleDrawer} className="relative">Comunidade de Apoio</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support2" onClick={toggleDrawer} className="relative">Juntos pela Inclusão</a></li>
                     <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#principios" onClick={toggleDrawer} className="relative">Princípios</a></li>
                     <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#workshop" onClick={toggleDrawer} className="relative">Eventos</a></li>
-                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#donate" onClick={toggleDrawer} className="relative">Doar</a></li>
+                    <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#donate" onClick={toggleDrawer} className="relative">Como Ajudar</a></li>
                     <li className="hover:text-gray-300 hover:bg-white/5 rounded-lg cursor-pointer py-4 px-2"><a href="#support3" onClick={toggleDrawer} className="relative">Links</a></li>
                 </ul>
             </motion.div>

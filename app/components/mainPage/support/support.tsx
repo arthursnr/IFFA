@@ -7,7 +7,7 @@ export function Support() {
             <div id="support" className="flex flex-col gap-8">
                 <div className="flex flex-col gap-3 lg:gap-4">
                     <div>
-                        <span className="text-base font-semibold font-ibm">Suporte</span>
+                        <span className="text-base font-semibold font-ibm">Comunidade de Apoio</span>
                     </div>
 
                     <div className="flex flex-col gap-5">

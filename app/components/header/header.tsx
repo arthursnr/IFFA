@@ -10,11 +10,11 @@ export function Header() {
             <div className="hidden md:flex items-start ">
                 <ul className="flex gap-5 text-base leading-6 font-ibm font-light lg:gap-8">
                     <li className="hover:text-white/80"><a href="#welcome">Home Page</a></li>
-                    <li className="hover:text-white/80"><a href="#support">Suporte</a></li>
-                    <li className="hover:text-white/80"><a href="#support2">Suporte.2</a></li>
+                    <li className="hover:text-white/80"><a href="#support">Comunidade de Apoio</a></li>
+                    <li className="hover:text-white/80"><a href="#support2">Juntos pela Inclusão</a></li>
                     <li className="hover:text-white/80"><a href="#principios">Princípios</a></li>
                     <li className="hover:text-white/80"><a href="#workshop">Eventos</a></li>
-                    <li className="hover:text-white/80"><a href="#donate">Doar</a></li>
+                    <li className="hover:text-white/80"><a href="#donate">Como Ajudar</a></li>
                     <li className="hover:text-white/80"><a href="#support3">Links</a></li>
                 </ul>
             </div>
