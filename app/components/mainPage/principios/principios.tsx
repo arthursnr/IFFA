@@ -1,9 +1,14 @@
 export function Principios() {
     return (
-        <div id="principios" className="flex flex-col gap-10 min-h-screen py-16 px-5 text-[#0B0105] bg-[#E8E8F9] lg:py-28 lg:px-16">
+        <div id="principios" className="flex flex-col gap-10py-16 px-5 text-[#0B0105] bg-[#E8E8F9] lg:py-28 lg:px-16">
             <div>
                 <p className="text-base font-semibold font-ibm">Nossos Princípios</p>
             </div>
+
+<div className="flex flex-col lg:grid lg:grid-cols-3 gap-10 min-h-screen  text-[#0B0105] bg-[#E8E8F9] ">
+
+
+            
 
             <div className="flex flex-col gap-6 bg-white/40 shadow px-3.5 py-4 lg:px-6 lg:py-7 rounded-lg">
                 <div className="flex gap-2 text-base font-semibold font-ibm">
@@ -66,6 +71,7 @@ export function Principios() {
                         um suporte humanizado.
                     </p>
                 </div>
+            </div>
             </div>
 
         </div>
