@@ -31,7 +31,7 @@ export function Support() {
                     {/* Card */}
                     <div className="flex gap-5 items-start">
                         <div className="p-4 rounded-xl bg-white shadow-sm border border-[#EAEAF2]">
-                            <img src="/icon.svg" alt="icon" className="size-8" />
+                            <img src="/icon.svg" alt="icon" className="size-8 sm:hidden"/>
                         </div>
                         <div className="flex flex-col gap-1">
                             <p className="text-2xl font-jost font-semibold text-[#0D0D0D]">

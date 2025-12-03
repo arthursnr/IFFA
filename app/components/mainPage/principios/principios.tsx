@@ -6,7 +6,7 @@ export function Principios() {
                        lg:px-24 lg:py-32"
         >
             {/* Título */}
-            <h2 className="text-center text-sm font-semibold font-ibm tracking-wide 
+            <h2 className="text-center text-xl font-semibold font-ibm tracking-wide 
                            bg-gradient-to-r from-[#5A4FCF] to-[#8676FF] bg-clip-text text-transparent">
                 Nossos Princípios
             </h2>
