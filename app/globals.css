@@ -1,2 +1,6 @@
 @import './theme.css';
 @import "tailwindcss";
+
+:root {
+  font-size: 16px !important;
+}
