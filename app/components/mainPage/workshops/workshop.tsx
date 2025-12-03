@@ -2,17 +2,26 @@ import { WorkshopEvents } from "../../workshopsEvents/workshopEvents";
 
 export function Workshop() {
     return (
-        <div id="workshop" className="flex flex-col gap-12 bg-white text-[#0B0105] min-h-screen w-screen py-12 px-5 lg:py-28 lg:px-16 lg:gap-20 lg:items-center">
-            <div className="flex flex-col gap-3 text-center lg:gap-4 lg:w-3xl">
-                <span className="font-ibm text-base leading-6 font-semibold">Eventos</span>
-                <div className="flex flex-col gap-5 text-center lg:gap-6">
-                    <p className="font-jost leading-10 text-3xl lg:text-5xl lg:leading-14">Workshops</p>
-                    <p className="font-ibm text-base leading-6 lg:text-lg lg:leading-7">Junte-se a nós em eventos envolventes, criados para apoiar e conectar famílias de crianças com necessidades especiais.</p>
-                </div>
+        <section
+            id="workshop"
+            className="flex flex-col gap-16 bg-white text-[#0B0105] w-full py-20 px-6 lg:py-28 lg:px-20"
+        >
+            <div className="flex flex-col gap-4 text-center max-w-3xl mx-auto">
+                <span className="font-ibm text-sm font-semibold tracking-wide text-indigo-600">
+                    Eventos
+                </span>
+
+                <h2 className="font-jost text-4xl lg:text-5xl font-semibold leading-tight">
+                    Workshops
+                </h2>
+
+                <p className="font-ibm text-base lg:text-lg text-[#333] leading-7">
+                    Participe de atividades especialmente planejadas para apoiar,
+                    orientar e conectar famílias de crianças com necessidades especiais.
+                </p>
             </div>
 
             <WorkshopEvents />
-            
-        </div>
-    )
+        </section>
+    );
 }

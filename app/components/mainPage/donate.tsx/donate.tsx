@@ -1,30 +1,55 @@
 export function Donate() {
     return (
-        <div id="donate" className="flex flex-col w-screen py-16 px-5 text-white bg-[#1414A2] lg:py-28 lg:px-16">
-            <div className="flex flex-col gap-12 lg:grid lg:grid-cols-2 lg:gap-20 lg:items-center">
-                <div className="flex flex-col gap-6 lg:gap-8">
+        <section
+            id="donate"
+            className="w-full bg-[#1414A2] text-white py-20 px-6 lg:py-28 lg:px-20"
+        >
+            <div className="grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
+                
+                {/* Texto */}
+                <div className="flex flex-col gap-8">
+                    <header className="flex flex-col gap-4">
+                        <h2 className="font-jost text-4xl lg:text-5xl font-semibold leading-tight">
+                            Faça Parte da IFFA
+                        </h2>
 
-                    <div className="flex flex-col gap-5 lg:gap-6">
-                        <span className="text-jost text-4xl leading-10 lg:text-5xl lg:leading-14">Faça Parte da IFFA</span>
-                        <p className="text-ibm text-base leading-6 lg:text-lg lg:leading-7">Juntos, podemos fazer a diferença para as nossas crianças.</p>
-                    </div>
+                        <p className="font-ibm text-base lg:text-lg leading-relaxed text-white/90 max-w-md">
+                            Juntos, podemos transformar a realidade de milhares de
+                            crianças e famílias. Cada ação importa — seja doando ou dedicando seu tempo.
+                        </p>
+                    </header>
 
-                    <div className="flex flex-col gap-12">
-                        <div className="flex gap-4">
-                            <button className="py-2.5 px-6 bg-white text-ibm text-base font-medium leading-6 text-[#0B0105] border border-[#DAD8D9] border-b-4 rounded-md hover:bg-white/70">
-                                <a href="https://www.vakinha.com.br/5228021">Doar</a>
-                            </button>
-                            <button className="py-2.5 px-6 text-ibm text-base font-medium leading-6 border border-b-4 border-white/20 rounded-md hover:bg-white/25">
-                                <a href="https://www.atados.com.br/ong/instituto-forum-de-familias-atipicas-323239/vagas">Volutariar-se</a>
-                            </button>
-                        </div>
+                    {/* Botões */}
+                    <div className="flex gap-5">
+                        {/* Botão principal */}
+                        <a
+                            href="https://www.vakinha.com.br/5228021"
+                            target="_blank"
+                            className="py-3 px-7 bg-white text-[#1414A2] font-ibm font-medium text-base border border-white/30 rounded-lg shadow-sm hover:bg-white/90 transition"
+                        >
+                            Fazer uma Doação
+                        </a>
+
+                        {/* Botão secundário */}
+                        <a
+                            href="https://www.atados.com.br/ong/instituto-forum-de-familias-atipicas-323239/vagas"
+                            target="_blank"
+                            className="py-3 px-7 border border-white/30 font-ibm font-medium text-base rounded-lg hover:bg-white/20 transition"
+                        >
+                            Seja um Voluntário
+                        </a>
                     </div>
                 </div>
 
-                <div>
-                    <img src="/footerImg.jpg" alt="" className="rounded-2xl shadow-2xl min-h-56 max-h-96" />
+                {/* Imagem */}
+                <div className="w-full flex justify-center">
+                    <img
+                        src="/footerImg.jpg"
+                        alt="Famílias unidas em apoio"
+                        className="rounded-3xl shadow-xl object-cover w-full max-w-lg h-72 lg:h-96"
+                    />
                 </div>
             </div>
-        </div>
-    )
+        </section>
+    );
 }

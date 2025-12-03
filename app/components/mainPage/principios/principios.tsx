@@ -1,79 +1,120 @@
 export function Principios() {
     return (
-        <div id="principios" className="flex flex-col gap-10py-16 px-5 text-[#0B0105] bg-[#E8E8F9] lg:py-28 lg:px-16">
-            <div>
-                <p className="text-base font-semibold font-ibm">Nossos Princípios</p>
+        <div
+            id="principios"
+            className="flex flex-col gap-20 py-24 px-6 bg-[#F5F4FF] text-[#0B0105] 
+                       lg:px-24 lg:py-32"
+        >
+            {/* Título */}
+            <h2 className="text-center text-sm font-semibold font-ibm tracking-wide 
+                           bg-gradient-to-r from-[#5A4FCF] to-[#8676FF] bg-clip-text text-transparent">
+                Nossos Princípios
+            </h2>
+
+            {/* Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
+
+                {/* Card */}
+                <div className="flex flex-col gap-6 bg-white rounded-2xl px-7 py-9 
+                                border border-[#E8E8FA] shadow-[0px_12px_40px_-10px_rgba(0,0,0,0.07)] 
+                                transition-all duration-300 hover:shadow-[0px_16px_50px_-10px_rgba(0,0,0,0.10)]">
+
+                    {/* Ícone + título */}
+                    <div className="flex items-center gap-4">
+                        <div className="p-3 rounded-lg bg-[#F3F0FF]">
+                            <img src="/goal.svg" className="size-6" alt="Missão" />
+                        </div>
+                        <span className="text-xl font-semibold font-ibm">
+                            Nossa Missão
+                        </span>
+                    </div>
+
+                    {/* Conteúdo */}
+                    <div className="flex gap-5 items-start">
+                        <img
+                            src="/iffa1.webp"
+                            alt="Missão"
+                            className="size-20 rounded-xl object-cover hidden md:block"
+                        />
+
+                        <p className="font-jost text-[15px] leading-7 text-[#333]">
+                            Nossa missão é fomentar a inclusão social e assegurar os direitos das pessoas
+                            com deficiência e suas famílias por meio de{" "}
+                            <span className="text-[#4A57FF] font-semibold">
+                                acolhimento humanizado, suporte integral e ações de conscientização
+                            </span>, promovendo uma sociedade mais justa e acolhedora.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Card 2 */}
+                <div className="flex flex-col gap-6 bg-white rounded-2xl px-7 py-9 
+                                border border-[#E8E8FA] shadow-[0px_12px_40px_-10px_rgba(0,0,0,0.07)] 
+                                transition-all duration-300 hover:shadow-[0px_16px_50px_-10px_rgba(0,0,0,0.10)]">
+
+                    <div className="flex items-center gap-4">
+                        <div className="p-3 rounded-lg bg-[#F3F0FF]">
+                            <img src="/eye.svg" className="size-6" alt="Visão" />
+                        </div>
+                        <span className="text-xl font-semibold font-ibm">
+                            Nossa Visão
+                        </span>
+                    </div>
+
+                    <div className="flex gap-5 items-start">
+                        <img
+                            src="/iffa2.webp"
+                            alt="Visão"
+                            className="size-20 rounded-xl object-cover hidden md:block"
+                        />
+
+                        <p className="font-jost text-[15px] leading-7 text-[#333]">
+                            Ser reconhecida como referência no Rio de Janeiro pela atuação{" "}
+                            <span className="text-[#4A57FF] font-semibold">transformadora e comprometida</span>{" "}
+                            com a defesa dos direitos das pessoas com deficiência e a promoção de
+                            uma sociedade inclusiva, baseada no respeito e na igualdade de oportunidades.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Card 3 */}
+                <div className="flex flex-col gap-6 bg-white rounded-2xl px-7 py-9 
+                                border border-[#E8E8FA] shadow-[0px_12px_40px_-10px_rgba(0,0,0,0.07)] 
+                                transition-all duration-300 hover:shadow-[0px_16px_50px_-10px_rgba(0,0,0,0.10)]">
+
+                    <div className="flex items-center gap-4">
+                        <div className="p-3 rounded-lg bg-[#F3F0FF]">
+                            <img src="/value.svg" className="size-6" alt="Valores" />
+                        </div>
+                        <span className="text-xl font-semibold font-ibm">
+                            Nossos Valores
+                        </span>
+                    </div>
+
+                    <div className="flex gap-5 items-start">
+                        <img
+                            src="/iffa3.webp"
+                            alt="Valores"
+                            className="size-20 rounded-xl object-cover hidden md:block"
+                        />
+
+                        <p className="font-jost text-[15px] leading-7 text-[#333]">
+                            Valorizamos a{" "}
+                            <span className="text-[#4A57FF] font-semibold">
+                                inclusão, empatia, justiça social, transparência e transformação
+                            </span>.
+                            Trabalhamos para eliminar barreiras e promover uma sociedade acessível.
+
+                            <br /><br />
+
+                            Também buscamos{" "}
+                            <span className="text-[#4A57FF] font-semibold">compreender</span> e{" "}
+                            <span className="text-[#4A57FF] font-semibold">acolher</span> as necessidades
+                            de cada pessoa e família, oferecendo suporte sensível e humanizado.
+                        </p>
+                    </div>
+                </div>
             </div>
-
-<div className="flex flex-col lg:grid lg:grid-cols-3 gap-10 min-h-screen  text-[#0B0105] bg-[#E8E8F9] ">
-
-
-            
-
-            <div className="flex flex-col gap-6 bg-white/40 shadow px-3.5 py-4 lg:px-6 lg:py-7 rounded-lg">
-                <div className="flex gap-2 text-base font-semibold font-ibm">
-                    <img src="/goal.svg" alt="Missão" />
-                    <span>Nossa Missão</span>
-                </div>
-                <div className="flex gap-5 items-center text-wrap">
-                    <img src="/iffa1.webp" alt="" className="size-20 hidden sm:block" />
-
-                    <p className="font-jost text-base leading-6 text-balance">Nossa missão é fomentar a inclusão social e
-                        assegurar a defesa dos direitos das pessoas com
-                        deficiência e de suas famílias, por meio de um <span className="text-blue-500">
-                            acolhimento humanizado, suporte integral e ações
-                            de conscientização</span>, com o compromisso de edificar
-                        uma sociedade mais justa, inclusiva e acolhedora."
-                    </p>
-                </div>
-            </div>
-
-            <div className="flex flex-col gap-6 bg-white/40 shadow px-3.5 py-4 lg:px-6 lg:py-7 rounded-lg">
-                <div className="flex gap-2 text-base font-semibold font-ibm">
-                    <img src="/eye.svg" alt="Missão" />
-                    <span>Nossa Visão</span>
-                </div>
-
-                <div className="flex gap-5 items-center text-wrap">
-                    <img src="/iffa2.webp" alt="" className="size-20 hidden sm:block md:block" />
-
-                    <p className="font-jost text-base leading-6 text-balance">Ser reconhecida como referência no estado do Rio de
-                        Janeiro por nossa atuação <span className="text-blue-500">transformadora, comprometida
-                            com a defesa dos direitos das pessoas com deficiência e a
-                            promoção de uma sociedade genuinamente inclusiva</span>, onde
-                        prevaleçam a igualdade de oportunidades e o respeito à
-                        dignidade de cada indivíduo
-                    </p>
-
-                </div>
-            </div>
-
-            <div className="flex flex-col gap-6 bg-white/40 shadow px-3.5 py-4 lg:px-6 lg:py-7 rounded-lg">
-                <div className="flex gap-2 text-base font-semibold font-ibm">
-                    <img src="/value.svg" alt="Missão" />
-                    <span>Nossos Valores</span>
-                </div>
-
-                <div className="flex gap-5 items-center text-wrap">
-                    <img src="/iffa3.webp" alt="" className="size-20 hidden sm:block md:block" />
-
-                    <p className="font-jost text-base leading-6 text-balance">Nossos valores se baseiam na <span className="text-blue-500">inclusão, empatia,
-                        justiça social, na transparência adjunto a parceria
-                        e transformação social.</span> O Instituto Fórum De Famílias
-                        Atípicas valoriza a diversidade e luta para erradicar
-                        barreiras que dificultam a plena inserção de
-                        indivíduos portadores de deficiência no âmbito
-                        social.
-                        <br />
-                        <br />
-                        Além desse fator, cabe pontuar que o Instituto busca <span className="text-blue-500">compreender</span> e <span className="text-blue-500">acolher</span> as necessidades individuais
-                        de cada pessoa (junto ao seu familiar), oferecendo
-                        um suporte humanizado.
-                    </p>
-                </div>
-            </div>
-            </div>
-
         </div>
-    )
+    );
 }
