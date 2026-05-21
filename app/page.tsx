@@ -1,13 +1,21 @@
+"use client";
+
+import { useEffect } from "react";
 import { MainPage } from "./components/mainPage/mainPage";
 
-
 export default function Home() {
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker
+          .register("/sw.js")
+          .then((reg) => console.log("SW registrado com sucesso:", reg.scope))
+          .catch((err) => console.error("Falha ao registrar o SW:", err));
+      });
+    }
+  }, []);
 
   return (
-    <Head>
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#000000" />
-     </Head>
     <div className="min-h-screen min-w-screen bg-gray-100">
       <MainPage />
     </div>
