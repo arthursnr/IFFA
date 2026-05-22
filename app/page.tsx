@@ -1,30 +1,66 @@
 "use client";
 
-import { MainPage } from "./components/mainPage/mainPage";
 import { useEffect, useState } from "react";
+import { MainPage } from "./components/mainPage/mainPage";
 
-function App() {
-  const [deferredPrompt, setDeferredPrompt] = useState(null);
+interface BeforeInstallPromptEvent extends Event {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{
+    outcome: "accepted" | "dismissed";
+  }>;
+}
+
+export default function Home() {
+  const [deferredPrompt, setDeferredPrompt] =
+    useState<BeforeInstallPromptEvent | null>(null);
 
   useEffect(() => {
-    const handler = (e) => {
+    // SERVICE WORKER
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker
+        .register("/sw.js")
+        .then((reg) =>
+          console.log(
+            "SW registrado com sucesso:",
+            reg.scope
+          )
+        )
+        .catch((err) =>
+          console.error(
+            "Falha ao registrar o SW:",
+            err
+          )
+        );
+    }
+
+    // PWA INSTALL
+    const handler = (
+      e: BeforeInstallPromptEvent
+    ) => {
       e.preventDefault();
       setDeferredPrompt(e);
     };
 
-    window.addEventListener("beforeinstallprompt", handler);
+    window.addEventListener(
+      "beforeinstallprompt",
+      handler as EventListener
+    );
 
     return () => {
-      window.removeEventListener("beforeinstallprompt", handler);
+      window.removeEventListener(
+        "beforeinstallprompt",
+        handler as EventListener
+      );
     };
   }, []);
 
   const instalarApp = async () => {
     if (!deferredPrompt) return;
 
-    deferredPrompt.prompt();
+    await deferredPrompt.prompt();
 
-    const { outcome } = await deferredPrompt.userChoice;
+    const { outcome } =
+      await deferredPrompt.userChoice;
 
     if (outcome === "accepted") {
       console.log("App instalado");
@@ -33,25 +69,18 @@ function App() {
     setDeferredPrompt(null);
   };
 
-export default function Home() {
-  useEffect(() => {
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker
-          .register("/sw.js")
-          .then((reg) => console.log("SW registrado com sucesso:", reg.scope))
-          .catch((err) => console.error("Falha ao registrar o SW:", err));
-      });
-    }
-  }, []);
-
   return (
     <div className="min-h-screen min-w-screen bg-gray-100">
       <MainPage />
+
       {deferredPrompt && (
-        <button onClick={instalarApp}>
+        <button
+          onClick={instalarApp}
+          className="fixed bottom-5 right-5 bg-black text-white px-4 py-2 rounded-xl"
+        >
           Instalar aplicativo
         </button>
+      )}
     </div>
   );
 }
