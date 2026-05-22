@@ -15,7 +15,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "IFFA",
-  description: "Insituto Fórum de Famílias Atípicas",
+  description: "Insituto Fórum de Famílias Atípicas",manifest: "/manifest.json",
+  themeColor: "#000000",
 };
 
 export default function RootLayout({

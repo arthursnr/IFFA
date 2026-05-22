@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import InstallButton from "../buttons/installButton";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -9,7 +10,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 w-full bg-white/10 backdrop-blur-md shadow-sm z-50">
       <div className="max-w-6xl mx-auto h-20 px-6 flex items-center justify-between">
-        
+
         {/* LOGO + Texto */}
         <div className="flex items-center gap-3">
           <img
@@ -31,6 +32,7 @@ export function Header() {
           <a href="#workshop" className="hover:text-black transition">Eventos</a>
           <a href="#donate" className="hover:text-black transition">Como Ajudar</a>
           <a href="#contact" className="hover:text-black transition">Contato</a>
+          <div className="hover:text-black transition"><InstallButton /></div>
         </nav>
 
         {/* BOTÃO MOBILE */}
