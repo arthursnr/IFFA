@@ -32,7 +32,7 @@ export function Header() {
           <a href="#workshop" className="hover:text-black transition">Eventos</a>
           <a href="#donate" className="hover:text-black transition">Como Ajudar</a>
           <a href="#contact" className="hover:text-black transition">Contato</a>
-          <div className="hover:text-black transition"><InstallButton /></div>
+          <InstallButton />
         </nav>
 
         {/* BOTÃO MOBILE */}

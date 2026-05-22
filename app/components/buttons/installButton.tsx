@@ -10,45 +10,50 @@ interface BeforeInstallPromptEvent extends Event {
 }
 
 export default function InstallButton() {
-  const [prompt, setPrompt] =
+  const [deferredPrompt, setDeferredPrompt] =
     useState<BeforeInstallPromptEvent | null>(null);
 
   useEffect(() => {
-    const handler = (e: Event) => {
+    const handler = (
+      e: BeforeInstallPromptEvent
+    ) => {
       e.preventDefault();
-
-      setPrompt(
-        e as BeforeInstallPromptEvent
-      );
+      setDeferredPrompt(e);
     };
 
     window.addEventListener(
       "beforeinstallprompt",
-      handler
+      handler as EventListener
     );
 
     return () => {
       window.removeEventListener(
         "beforeinstallprompt",
-        handler
+        handler as EventListener
       );
     };
   }, []);
 
-  const instalar = async () => {
-    if (!prompt) return;
+  const instalarApp = async () => {
+    if (!deferredPrompt) return;
 
-    await prompt.prompt();
+    await deferredPrompt.prompt();
 
-    const result = await prompt.userChoice;
+    const { outcome } =
+      await deferredPrompt.userChoice;
 
-    console.log(result.outcome);
+    console.log(outcome);
+
+    setDeferredPrompt(null);
   };
 
-  if (!prompt) return null;
+  if (!deferredPrompt) return null;
 
   return (
-    <button onClick={instalar}>
+    <button
+      onClick={instalarApp}
+      className="bg-black text-white px-4 py-2 rounded-xl"
+    >
       Instalar App
     </button>
   );
