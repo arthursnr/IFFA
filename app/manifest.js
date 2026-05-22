@@ -10,12 +10,12 @@ export default function manifest() {
     orientation: "portrait",
     icons: [
       {
-        src: "/logoIFFA_2(branca).png",
+        src: "/logoIFFA_2.png",
         sizes: "192x192",
         type: "image/png",
       },
       {
-        src: "/logoIFFA_2(branca).png",
+        src: "/logoIFFA_2.png",
         sizes: "512x512",
         type: "image/png",
       },
