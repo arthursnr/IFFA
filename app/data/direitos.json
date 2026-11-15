@@ -1,0 +1,321 @@
+[
+  {
+    "id": 1,
+    "condicao": "TEA",
+    "categoria": "Educação",
+    "titulo": "Direito à matrícula em escola regular",
+    "resumo": "A pessoa com TEA tem direito à educação em sistema inclusivo.",
+    "descricao": "A criança com Transtorno do Espectro Autista tem direito ao acesso à educação, inclusive em escolas regulares. A instituição não pode recusar matrícula em razão do diagnóstico.",
+    "requisitos": [
+      "O direito se aplica aos estudantes com TEA.",
+      "A escola deve promover condições de acesso, permanência, participação e aprendizagem."
+    ],
+    "como_solicitar": [
+      "Procure a secretaria da escola e solicite a matrícula.",
+      "Se houver recusa, peça a justificativa por escrito.",
+      "Registre a situação na Secretaria de Educação ou procure a Defensoria Pública."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 12.764/2012",
+        "artigo": "Art. 3º",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "condicao": "TEA",
+    "categoria": "Educação",
+    "titulo": "Acompanhante especializado",
+    "resumo": "O estudante com TEA pode ter direito a acompanhante especializado quando houver necessidade comprovada.",
+    "descricao": "A legislação prevê acompanhante especializado em casos de comprovada necessidade. O apoio deve considerar as necessidades do estudante e não deve ser tratado como benefício automático apenas pela existência do diagnóstico.",
+    "requisitos": [
+      "Comprovação da necessidade de apoio no contexto escolar.",
+      "Avaliação das necessidades e barreiras enfrentadas pelo estudante."
+    ],
+    "como_solicitar": [
+      "Apresente à escola um pedido formal de avaliação das necessidades do estudante.",
+      "Anexe relatórios e documentos relevantes, se disponíveis.",
+      "Solicite uma resposta formal sobre as medidas de apoio previstas."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 12.764/2012",
+        "artigo": "Art. 3º, parágrafo único",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "condicao": "TEA",
+    "categoria": "Educação",
+    "titulo": "Atendimento Educacional Especializado (AEE)",
+    "resumo": "O estudante pode ter acesso ao AEE para complementar ou suplementar sua formação.",
+    "descricao": "O Atendimento Educacional Especializado busca identificar e organizar recursos pedagógicos e de acessibilidade para eliminar barreiras à aprendizagem e à participação escolar.",
+    "requisitos": [
+      "Identificação das necessidades educacionais do estudante.",
+      "Planejamento do atendimento conforme as necessidades identificadas."
+    ],
+    "como_solicitar": [
+      "Converse com a coordenação pedagógica da escola.",
+      "Solicite uma avaliação das necessidades educacionais.",
+      "Pergunte como funciona o atendimento na rede de ensino."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 13.146/2015",
+        "artigo": "Art. 28",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "condicao": "TEA",
+    "categoria": "Educação",
+    "titulo": "Adaptações e recursos de acessibilidade",
+    "resumo": "A escola deve adotar medidas para garantir o acesso ao currículo e a participação do estudante.",
+    "descricao": "As instituições de ensino devem promover adaptações razoáveis e recursos de acessibilidade, considerando as necessidades individuais do estudante.",
+    "requisitos": [
+      "Identificação das barreiras que dificultam a aprendizagem ou participação.",
+      "Definição de estratégias adequadas às necessidades do estudante."
+    ],
+    "como_solicitar": [
+      "Converse com os professores e a coordenação pedagógica.",
+      "Descreva as dificuldades observadas no cotidiano escolar.",
+      "Solicite que as estratégias de apoio sejam registradas e acompanhadas."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 13.146/2015",
+        "artigo": "Art. 28",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "condicao": "TEA",
+    "categoria": "Educação",
+    "titulo": "Proibição de cobrança adicional em escola particular",
+    "resumo": "Escolas privadas não podem cobrar valores extras em razão das medidas de inclusão.",
+    "descricao": "As instituições privadas de ensino devem cumprir as obrigações de inclusão e acessibilidade sem cobrar valores adicionais nas mensalidades, anuidades ou matrículas por esse motivo.",
+    "requisitos": [
+      "Aplica-se às instituições privadas de ensino.",
+      "A cobrança adicional deve estar relacionada às medidas previstas na legislação de inclusão."
+    ],
+    "como_solicitar": [
+      "Peça à escola a discriminação dos valores cobrados.",
+      "Guarde contratos, comprovantes e comunicações.",
+      "Em caso de cobrança indevida, procure o Procon ou a Defensoria Pública."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 13.146/2015",
+        "artigo": "Art. 28, § 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "condicao": "TEA",
+    "categoria": "Educação",
+    "titulo": "Proteção contra discriminação na escola",
+    "resumo": "O estudante não pode ser discriminado por sua condição ou deficiência.",
+    "descricao": "A escola deve assegurar um ambiente inclusivo e respeitar os direitos do estudante. A recusa de matrícula ou outras práticas discriminatórias podem gerar responsabilização.",
+    "requisitos": [
+      "O direito à igualdade e à não discriminação deve ser respeitado no ambiente escolar."
+    ],
+    "como_solicitar": [
+      "Registre os fatos, datas e pessoas envolvidas.",
+      "Comunique formalmente a direção da escola.",
+      "Se a situação persistir, procure a Secretaria de Educação, o Conselho Tutelar ou a Defensoria Pública."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 13.146/2015",
+        "artigo": "Art. 4º e Art. 27",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "condicao": "TEA",
+    "categoria": "Saúde",
+    "titulo": "Atendimento multiprofissional pelo SUS",
+    "resumo": "A pessoa com TEA tem direito à atenção integral à saúde, incluindo acompanhamento multiprofissional.",
+    "descricao": "A legislação assegura à pessoa com Transtorno do Espectro Autista acesso a ações e serviços de saúde, incluindo diagnóstico precoce, atendimento multiprofissional, nutrição adequada e acesso a medicamentos. O SUS disponibiliza acompanhamento por profissionais e serviços especializados conforme a necessidade do paciente e a organização da rede de saúde.",
+    "requisitos": [
+      "O atendimento é realizado conforme a necessidade de saúde da pessoa.",
+      "O acesso aos serviços especializados pode depender de avaliação e encaminhamento pela rede pública.",
+      "A oferta de terapias específicas depende da organização e disponibilidade dos serviços."
+    ],
+    "como_solicitar": [
+      "Procure a Unidade Básica de Saúde (UBS) mais próxima.",
+      "Apresente os documentos e relatórios médicos disponíveis.",
+      "Solicite avaliação e encaminhamento para atendimento especializado, quando necessário.",
+      "Procure o CAPS infantil ou Centro Especializado em Reabilitação (CER), conforme orientação da rede de saúde."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 12.764/2012",
+        "artigo": "Art. 2º, inciso III, e Art. 3º, inciso III",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12764.htm"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "condicao": "Pessoa com deficiência",
+    "categoria": "Transporte e Mobilidade",
+    "titulo": "Vale Social - Rio de Janeiro",
+    "resumo": "Gratuidade no transporte público estadual para pessoas com deficiência que atendam aos critérios do programa.",
+    "descricao": "O Vale Social garante gratuidade nos transportes públicos de concessão estadual do Rio de Janeiro, incluindo ônibus intermunicipais, metrô, trens e barcas. O benefício é destinado a pessoas com deficiência física, sensorial ou intelectual, mediante avaliação e comprovação dos requisitos. A gratuidade também pode ser estendida ao acompanhante quando houver indicação e comprovação médica.",
+    "requisitos": [
+      "Enquadramento nos critérios de pessoa com deficiência previstos pelo programa.",
+      "Apresentação de documentação e laudo médico conforme as exigências do Vale Social.",
+      "A necessidade de acompanhante deve ser indicada e comprovada quando for solicitada essa extensão."
+    ],
+    "como_solicitar": [
+      "Acesse o portal oficial do Vale Social.",
+      "Consulte os postos de atendimento e os formulários necessários.",
+      "Providencie o formulário médico preenchido e os documentos pessoais.",
+      "Aguarde a análise e a emissão do cartão."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei Estadual nº 4.510/2005",
+        "artigo": "Art. 1º",
+        "url": "https://www3.alerj.rj.gov.br/lotus_notes/default.asp?id=144"
+      },
+      {
+        "nome": "Decreto Estadual nº 36.992/2005",
+        "artigo": "Regulamentação do Vale Social",
+        "url": "https://www.valesocial.rj.gov.br/"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "condicao": "Pessoa com deficiência",
+    "categoria": "Transporte e Mobilidade",
+    "titulo": "Passe Livre Interestadual",
+    "resumo": "Gratuidade em viagens interestaduais de transporte coletivo convencional para pessoas com deficiência de baixa renda.",
+    "descricao": "O Passe Livre Interestadual permite que pessoas com deficiência comprovadamente carentes viajem gratuitamente em serviços convencionais de transporte coletivo interestadual. O benefício abrange ônibus, trem e barco. A pessoa pode ter direito a acompanhante quando essa necessidade estiver registrada no sistema por profissional de saúde.",
+    "requisitos": [
+      "Ser reconhecida como pessoa com deficiência.",
+      "Possuir renda familiar per capita de até um salário mínimo.",
+      "Atender aos critérios de comprovação por meio do BPC ou do CadÚnico e Cadastro-Inclusão, ou atestado médico registrado no sistema, conforme as regras vigentes."
+    ],
+    "como_solicitar": [
+      "Acesse o sistema oficial do Passe Livre Digital.",
+      "Entre com sua conta Gov.br.",
+      "Selecione a opção para obter o Passe Livre.",
+      "Preencha e envie a solicitação.",
+      "Acompanhe a emissão da credencial digital."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 8.899/1994",
+        "artigo": "Art. 1º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8899.htm"
+      },
+      {
+        "nome": "Decreto nº 3.691/2000",
+        "artigo": "Regulamentação do Passe Livre",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto/d3691.htm"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "condicao": "Pessoa com deficiência",
+    "categoria": "Benefícios Sociais",
+    "titulo": "Benefício de Prestação Continuada (BPC/LOAS)",
+    "resumo": "Benefício mensal de um salário mínimo destinado à pessoa com deficiência que atenda aos critérios legais e socioeconômicos.",
+    "descricao": "O BPC é um benefício assistencial que garante um salário mínimo mensal à pessoa com deficiência de qualquer idade, inclusive crianças, desde que sejam atendidos os critérios legais. A avaliação considera a existência de impedimento de longo prazo e as barreiras que dificultam a participação plena na sociedade, além dos critérios de renda familiar. O diagnóstico, isoladamente, não garante a concessão.",
+    "requisitos": [
+      "Comprovar a condição de pessoa com deficiência e o impedimento de longo prazo, conforme avaliação legal.",
+      "Atender ao critério de renda familiar por pessoa de até um quarto do salário mínimo, observadas as regras legais de cálculo.",
+      "Estar inscrito no Cadastro Único (CadÚnico), com os dados atualizados.",
+      "Possuir CPF e cumprir os demais requisitos administrativos."
+    ],
+    "como_solicitar": [
+      "Procure o CRAS para realizar ou atualizar o Cadastro Único.",
+      "Reúna documentos pessoais e relatórios médicos e sociais disponíveis.",
+      "Solicite o benefício pelo Meu INSS ou pelo telefone 135.",
+      "Aguarde as avaliações médica e social, quando exigidas."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 8.742/1993 (LOAS)",
+        "artigo": "Art. 20",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8742.htm"
+      },
+      {
+        "nome": "Lei nº 13.146/2015",
+        "artigo": "Art. 2º",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "condicao": "TEA",
+    "categoria": "Isenções para Veículos",
+    "titulo": "Isenção de IPI na compra de veículo",
+    "resumo": "Pessoas com TEA, inclusive menores de idade, podem solicitar isenção de IPI na aquisição de veículo, por meio de representante legal.",
+    "descricao": "A legislação permite que pessoas com Transtorno do Espectro Autista solicitem isenção do Imposto sobre Produtos Industrializados (IPI) na compra de veículo novo, inclusive quando menores de 18 anos. Nesses casos, o pedido pode ser realizado por intermédio do representante legal. A concessão depende do atendimento às condições fiscais e documentais estabelecidas pela Receita Federal.",
+    "requisitos": [
+      "Comprovação da condição de pessoa com TEA conforme as exigências legais.",
+      "Apresentação da documentação médica exigida.",
+      "Atendimento às condições fiscais para aquisição do veículo.",
+      "Observância dos limites e intervalos legais para utilização da isenção."
+    ],
+    "como_solicitar": [
+      "Acesse o sistema SISEN da Receita Federal.",
+      "Realize o pedido de autorização para isenção de IPI.",
+      "Apresente os laudos e documentos exigidos.",
+      "Após a autorização, siga as orientações para aquisição do veículo."
+    ],
+    "legislacao": [
+      {
+        "nome": "Lei nº 8.989/1995",
+        "artigo": "Art. 1º, inciso IV",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8989.htm"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "condicao": "Pessoa com deficiência",
+    "categoria": "Isenções para Veículos",
+    "titulo": "Possibilidade de isenção de ICMS na compra de veículo",
+    "resumo": "Pessoas com deficiência, incluindo pessoas com TEA, podem ter direito à isenção total ou parcial de ICMS, conforme as regras vigentes.",
+    "descricao": "O Convênio ICMS nº 38/2012 estabelece condições para a isenção do imposto na aquisição de veículos novos por pessoas com deficiência física, visual, mental severa ou profunda, síndrome de Down ou autismo. A concessão depende da legislação estadual, dos limites de preço e das demais condições previstas no convênio.",
+    "requisitos": [
+      "Enquadramento nas condições previstas no Convênio ICMS nº 38/2012.",
+      "Apresentação da documentação médica e fiscal exigida.",
+      "Atendimento aos limites de valor e demais condições vigentes.",
+      "Autorização da Secretaria de Fazenda do estado."
+    ],
+    "como_solicitar": [
+      "Consulte a Secretaria de Fazenda do seu estado.",
+      "Verifique os documentos médicos e fiscais necessários.",
+      "Solicite a autorização para aquisição com isenção de ICMS.",
+      "Após a aprovação, apresente a autorização à concessionária."
+    ],
+    "legislacao": [
+      {
+        "nome": "Convênio ICMS nº 38/2012",
+        "artigo": "Cláusula primeira",
+        "url": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2012/CV038_12"
+      }
+    ]
+  }
+]

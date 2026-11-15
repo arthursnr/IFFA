@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { Header } from "../header/header";
-import { Donate } from "./donate.tsx/donate";
+import { Donate } from "./donate/donate";
 import { Footer } from "./footer/footer";
 import { Principios } from "./principios/principios";
 import { Support } from "./support/support";
@@ -10,6 +10,7 @@ import { Support2 } from "./support/support2";
 import { Support3 } from "./support/support3";
 import { Welcome } from "./welcome/welcome";
 import { Workshop } from "./workshops/workshop";
+import { DireitosPage }from "./direitos/direitos";
 
 export function MainPage() {
 
@@ -35,6 +36,9 @@ export function MainPage() {
 
                 {/*Principios ----------------> RESOLVER A FORMATAÇÃO DOS OBJETIVOS, O LADO ESQUERDO ESTA FICANDO FORA DA TELA */}
                 <Principios />
+
+                {/*Direitos*/}
+                <DireitosPage />
 
                 {/*Workshops*/}
                 <Workshop />
