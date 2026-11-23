@@ -29,6 +29,8 @@ export function Header() {
           <a href="#welcome" className="hover:text-black transition">Início</a>
           <a href="#support" className="hover:text-black transition">Comunidade</a>
           <a href="#support2" className="hover:text-black transition">Juntos pela Inclusão</a>
+          <a href="#direitos" className="hover:text-black transition">Direitos</a>
+          <a href="#glossario" className="hover:text-black transition">Glossario interativo</a>
           <a href="#workshop" className="hover:text-black transition">Eventos</a>
           <a href="#donate" className="hover:text-black transition">Como Ajudar</a>
           <a href="#contact" className="hover:text-black transition">Contato</a>
@@ -58,6 +60,8 @@ export function Header() {
               <a href="#welcome" onClick={() => setOpen(false)}>Início</a>
               <a href="#support" onClick={() => setOpen(false)}>Comunidade</a>
               <a href="#support2" onClick={() => setOpen(false)}>Juntos pela Inclusão</a>
+              <a href="#direitos" onClick={() => setOpen(false)}>Direitos</a>
+              <a href="#glossario" onClick={() => setOpen(false)}>Glossario interativo</a>
               <a href="#workshop" onClick={() => setOpen(false)}>Eventos</a>
               <a href="#donate" onClick={() => setOpen(false)}>Como Ajudar</a>
               <a href="#contact" onClick={() => setOpen(false)}>Contato</a>

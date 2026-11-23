@@ -11,6 +11,7 @@ import { Support3 } from "./support/support3";
 import { Welcome } from "./welcome/welcome";
 import { Workshop } from "./workshops/workshop";
 import { DireitosPage }from "./direitos/direitos";
+import GlossaryPage from "./glossario/glossario";
 
 export function MainPage() {
 
@@ -39,6 +40,9 @@ export function MainPage() {
 
                 {/*Direitos*/}
                 <DireitosPage />
+                
+                {/*Glossario*/}
+                <GlossaryPage />
 
                 {/*Workshops*/}
                 <Workshop />

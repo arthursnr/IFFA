@@ -1,8 +1,6 @@
 export function Welcome() {
     return (
-        <div>
-
-            
+        <div id="welcome">
             <section className="pt-32 pb-20">
                 <div className="max-w-6xl mx-auto text-center px-6">
 
